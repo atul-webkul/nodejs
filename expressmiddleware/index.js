@@ -7,6 +7,7 @@ const route = express.Router();
 //For whole route
 // app.use(reqFilter);
 
+//For group middleware
 route.use(reqFilter)
 
 app.get("/", (req, res) => {
